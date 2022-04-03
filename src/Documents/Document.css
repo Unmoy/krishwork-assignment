@@ -1,0 +1,31 @@
+.document_container {
+  background: #fff;
+  width: 380px;
+  border-radius: 5px;
+  padding-bottom: 40px;
+}
+.document_header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px 0 20px;
+  align-items: center;
+}
+.files_content ul {
+  margin: 0;
+  padding: 0;
+  padding: 10px 20px;
+}
+.files_content ul li {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 8px 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  border: none;
+  margin: 5px 7px;
+  font-size: 14px;
+}
+.file_icon {
+  margin-right: 10px;
+}

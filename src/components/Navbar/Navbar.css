@@ -1,0 +1,54 @@
+.top_nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 70px;
+  border-bottom: 1px solid #dee5f1;
+  padding: 0 50px;
+}
+.user_title_icon {
+  color: #0c33ce;
+  margin-right: 10px;
+  font-size: 20px;
+}
+.user_title span {
+  color: #000;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+.nav_input {
+  padding: 7px;
+  border: 1px solid #c6cdd8;
+  border-radius: 10px;
+  margin-right: 10px;
+  background: #f2f5fa;
+  outline: none;
+}
+.user_cta input::placeholder {
+  color: #8a959f;
+  font-weight: 600;
+}
+.nav_add_btn {
+  border: none;
+  background: #0d53fc;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  cursor: pointer;
+}
+.nav_bell_btn {
+  border: none;
+  color: #8a959f;
+  background: #fff;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  cursor: pointer;
+}

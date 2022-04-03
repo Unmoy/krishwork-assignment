@@ -1,0 +1,40 @@
+.info_bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 70px;
+  border-bottom: 1px solid #dee5f1;
+  padding: 0 50px;
+}
+.info_head {
+  color: #0d53fc;
+  margin-right: 15px;
+  font-weight: 600;
+}
+.chevron_icon {
+  color: #88949e;
+  margin-right: 15px;
+}
+.info_title {
+  color: #88949e;
+  font-weight: 600;
+}
+.print_btn {
+  background: #fff;
+  border: none;
+  padding: 8px 10px;
+  border-radius: 4px;
+  margin-right: 10px;
+  color: #88949e;
+}
+.edit_btn {
+  background: #fff;
+  border: none;
+  padding: 8px 10px;
+  border-radius: 4px;
+  color: #88949e;
+  font-weight: 600;
+}
+.edit_icon {
+  margin-right: 3px;
+}

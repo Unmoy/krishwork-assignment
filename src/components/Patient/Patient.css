@@ -1,0 +1,102 @@
+.hero_section {
+  display: flex;
+  padding: 0 30px;
+  margin-bottom: 20px;
+}
+.patient_container_left {
+  display: flex;
+  max-width: 900px;
+  justify-content: space-between;
+  margin-right: 15px;
+}
+.patient_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 20px 40px 20px 40px;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #000;
+}
+
+.image {
+  max-height: 80px;
+  max-width: 80px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.image img {
+  max-width: 100%;
+}
+.title {
+  text-align: center;
+  color: #000;
+}
+.title h2 {
+  font-size: 22px;
+}
+.title h5 {
+  font-size: 14px;
+  color: #88949e;
+}
+.info {
+  display: flex;
+  gap: 1rem;
+}
+.info_box {
+  text-align: center;
+}
+.info_box h3 {
+  font-size: 20px;
+}
+.info_box h5 {
+  font-size: 13px;
+  color: #88949e;
+}
+.right_border {
+  padding-right: 40px;
+  margin-left: 20px;
+  border-right: 1px solid #dee5f1;
+}
+.message_btn {
+  width: 100%;
+  text-align: center;
+  padding: 8px 10px;
+  font-weight: 500;
+  border: 1px solid #dee5f1;
+  cursor: pointer;
+}
+.patient_info {
+  width: 100%;
+  color: red;
+  background: #fff;
+  display: flex;
+  border-radius: 10px;
+  margin-left: 10px;
+  justify-content: center;
+  align-items: center;
+  padding-left: 35px;
+}
+.patient_info ul {
+  max-width: 540px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.patient_info ul li {
+  list-style-type: none;
+  width: 170px;
+  height: 90px;
+  color: #88949e;
+  font-size: 13px;
+  font-weight: 600;
+}
+.patient_info ul li p {
+  margin-top: 10px;
+  color: #000;
+  font-weight: 500;
+}

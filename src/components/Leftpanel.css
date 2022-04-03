@@ -1,0 +1,214 @@
+.side-menu {
+  position: fixed;
+  background: #fff;
+  width: 250px;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 30px 20px;
+  transition: width 0.2s ease-in;
+}
+
+.side-menu.inactive {
+  width: 80px;
+}
+
+.side-menu .top-section {
+  position: relative;
+}
+
+.side-menu .top-section .brand_name {
+  display: inline-block;
+  color: #fff;
+}
+
+.side-menu .top-section .toggle-menu-btn {
+  color: #0c33ce;
+  font-size: 20px;
+  position: absolute;
+  top: 40%;
+  right: 0;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.side-menu.inactive .top-section .toggle-menu-btn {
+  right: -50px;
+}
+
+.links ul {
+  margin: 0;
+  padding: 0;
+}
+.links ul li:first-child {
+  background: #0d53fc;
+  border-radius: 5px;
+}
+.links ul li:first-child span {
+  color: #fff !important;
+}
+.links ul li:first-child .menu_item_icon {
+  color: #fff;
+}
+.links li {
+  list-style: none;
+}
+.side-menu .links .menu-item {
+  text-decoration: none;
+  font-size: 15px;
+  display: block;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.side-menu .links .menu-item.active {
+  background: #0d53fc;
+  border-radius: 5px;
+  color: #fff;
+}
+.side-menu .links .menu-item.active span {
+  color: #fff;
+}
+.side-menu .links {
+  margin: 5px 0;
+  position: relative;
+  max-height: 250px;
+}
+.side-menu .links::-webkit-scrollbar {
+  display: none;
+}
+.side-menu .links .menu-item .menu-icon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  color: #88949e;
+}
+.side-menu .links .menu-item.active .menu-icon {
+  color: #fff;
+}
+.side-menu .links .menu-item span {
+  position: absolute;
+  display: inline-block;
+  line-height: 40px;
+  opacity: 1;
+  transition: opacity 0.2s ease-in;
+  color: #000;
+}
+.side-menu.inactive .links .menu-item span {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+.side-menu .links .menu-item:hover {
+  background: #0d53fc;
+  border-radius: 5px;
+  color: #fff;
+}
+.divider {
+  width: 100%;
+  height: 1px;
+  border-radius: 1px;
+  background: #333;
+}
+
+.dashboard_route_links {
+  text-decoration: none;
+  letter-spacing: 1px;
+  color: #000;
+  font-size: 20px;
+}
+.dashboard_route_links:hover {
+  color: #000;
+}
+.doctor_info {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  position: fixed;
+  bottom: 0;
+  color: #000;
+  cursor: pointer;
+}
+.doctor_image img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.doctor_name span {
+  font-size: 14px;
+  font-weight: 600;
+}
+.doctor_name p {
+  font-size: 13px;
+  font-weight: 500;
+  color: #8a959f;
+}
+.bottom_expand {
+  margin-left: 20px;
+  margin-top: 4px;
+  color: #8a959f;
+}
+.side-menu .doctor_info .doctor_name {
+  opacity: 1;
+  transition: opacity 0.2s ease-in;
+}
+.side-menu.inactive .doctor_info .doctor_name {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+.side-menu.inactive .doctor_info .doctor_image {
+  bottom: 10px;
+  position: absolute;
+}
+.side-menu.inactive .doctor_info .bottom_expand {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+.bottom_buttons {
+  bottom: 100px;
+  color: #000;
+  text-decoration: none;
+  font-size: 15px;
+  display: block;
+  font-weight: 600;
+  cursor: pointer;
+  margin-bottom: 10px;
+  position: absolute;
+}
+.bottom_buttons .menu-icon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  color: #8a959f;
+}
+.side-menu.bottom_buttons span {
+  position: relative;
+  display: inline-block;
+  opacity: 1;
+  transition: opacity 0.2s ease-in;
+  color: #000;
+}
+.side-menu.inactive .bottom_buttons span {
+  opacity: 0;
+  overflow: hidden;
+}
+.side-menu.inactive .bottom_buttons .menu-icon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  line-height: 40px;
+  text-align: center;
+  color: #8a959f;
+}
